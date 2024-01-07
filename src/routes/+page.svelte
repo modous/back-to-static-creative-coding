@@ -15,7 +15,7 @@
 
 		<article>
 			<img
-				class="rift tree"
+				class="rift tree tree2"
 				src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Tree_Transparent_Background.png"
 				alt=""
 			/>
@@ -28,7 +28,7 @@
 		position: relative;
 		background: url('https://best-sci-fi-books.com/wp-content/uploads/2014/08/Post-Apocalyptic_Cityscape_600.jpg')
 			center/cover no-repeat; /* Replace 'your-image.jpg' with the actual path to your image */
-		height: 100vh; /* Adjust the height as needed */
+		height: 200vh; /* Adjust the height as needed */
 	}
 
 	body {
@@ -36,15 +36,23 @@
 		padding: 0;
 	}
 
+
+	.tree2{
+
+		max-width: 100px;
+		margin-left: 900px;
+	}
 	.tree {
 		animation: rotate 5s linear infinite;
 	}
 
 	@keyframes rotate {
 		from {
+			margin-top: 100px;
 			transform: rotate(0deg);
 		}
 		to {
+			margin-top: 0px;
 			transform: rotate(360deg);
 		}
 	}
@@ -63,7 +71,7 @@
 		}
 		100% {
 			transform: rotate(360deg);
-			margin-left: 400px;
+			margin-left: 200px;
 			scale: 0.1;
 		}
 	}
